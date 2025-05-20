@@ -1,3 +1,6 @@
+gulf_videos_6mins/
+gulf_videos_transcripts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -167,8 +170,22 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ruff stuff:
-.ruff_cache/
-
 # PyPI configuration file
 .pypirc
+output/
+*.wav
+*_videos_texts/
+*_videos_texts_check/
+*_videos_texts2/
+*_channels_videos/
+*_videos_6mins/
+*_playlists_videos/
+*_videos/
+*_videos_transcripts/
+*_videos_texts_punct_corrected/
+*_passages/
+*_passages_check/
+nohup*
+*.whl
+*google_api_credentials*.json
+*correction_registry*.txt
